@@ -50,8 +50,8 @@ class SendMessageByGetRequest:
 
 #Usage
 ins = SendMessageByGetRequest()
-domain = "your apache webserver domain or IP adoress"
+domain = "your apache webserver domain or IP address"
 text_file_path = "your/text/filepath.txt"
-key = "test_key"  
+key = "test_key"
 ins.main(text_file_path,"text_file",domain,key)
 #ins.main("image_file_path.png","image",domain,"test_key_for_image")
